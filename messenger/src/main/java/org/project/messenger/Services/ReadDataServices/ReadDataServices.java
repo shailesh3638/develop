@@ -9,14 +9,13 @@ import org.project.messenger.Models.User;
 
 @Consumes({MediaType.APPLICATION_JSON}) 
 @Produces({MediaType.APPLICATION_JSON})
-@Path("/")
 public interface ReadDataServices {
 
 	@GET
 	@Consumes(MediaType.APPLICATION_JSON)
 	@Produces(MediaType.APPLICATION_JSON)
-	@Path("getuser")
-	public User getUser();
-	
+	@Path("/xyz")
+public User getUser();
+}	
 
-}
+
