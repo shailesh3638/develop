@@ -1,0 +1,16 @@
+CREATE TABLE USER1234  
+( user_id number(10) NOT NULL,  
+  username varchar2(50) NOT NULL,  
+  name varchar2(50)  
+);  
+
+ INSERT INTO USER1234  
+VALUES  
+(1234, 'abc', 'xyz') 
+
+INSERT INTO USER1234  
+(column1, column2, ... column_n )  
+VALUES  
+(expression1, expression2, ... expression_n );  
+
+select * from USER1234

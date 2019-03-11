@@ -7,15 +7,13 @@ import javax.ws.rs.core.MediaType;
 
 import org.project.messenger.Models.User;
 
-@Consumes({MediaType.APPLICATION_JSON}) 
-@Produces({MediaType.APPLICATION_JSON})
 public interface ReadDataServices {
 
 	@GET
 	@Consumes(MediaType.APPLICATION_JSON)
 	@Produces(MediaType.APPLICATION_JSON)
 	@Path("/xyz")
-public User getUser();
+public String getUser();
 }	
 
 
